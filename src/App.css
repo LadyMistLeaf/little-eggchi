@@ -1,0 +1,56 @@
+.main {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #1e90ff;
+  display: flex;
+  border-radius: 50%;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 167px;
+}
+
+.empty p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Comic Sans MS', Courier, monospace;
+}
+
+.canvas{
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  height: 167px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  background-color: olive;
+  border-radius: 50%;
+  border: none;
+}
